@@ -1,4 +1,3 @@
-require 'bundler'
+source "https://rubygems.org"
 
-Bundler.setup(:default, :ci)
-require 'nokogiri'
+gem "rubocop", ">= 1.0", "< 2.0"
