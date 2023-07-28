@@ -1,4 +1,4 @@
 require 'bundler'
 
-Bundler.setup(:default, :ci)
+gem 'rubocop', '>= 1.0', '< 2.0'
 require 'nokogiri'
